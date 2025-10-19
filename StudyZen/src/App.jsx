@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
-const API_KEY = "AIzaSyAVKOSoQYlQ-bgC3jW4lGyTfnePZmwEjPs";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 function App() {
   const [topic, setTopic] = useState("");
